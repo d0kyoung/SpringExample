@@ -4,7 +4,7 @@ Spring Web MVC에서 HTTP 요청 방식(GET, POST)에 따라
 
 이 두 어노테이션의 사용 이유와 차이점을 알아보려 한다.
 
-### 1. HTTP GET 요청과 `GetMapping`:
+### 1. HTTP GET 요청과 `GetMapping`
 
 - **GET 요청**: 
   - 웹 브라우저에서 URL을 입력하거나 링크를 클릭하면 발생하는 요청이다. 
@@ -19,7 +19,7 @@ Spring Web MVC에서 HTTP 요청 방식(GET, POST)에 따라
   - 이 어노테이션은 `@RequestMapping`의 축약형으로 `method = RequestMethod.GET`을 기본값으로 가진다.
 
 
-### 2. HTTP POST 요청과 `PostMapping`:
+### 2. HTTP POST 요청과 `PostMapping`
 
 - **POST 요청**: 
   - 웹 폼 제출과 같이 서버에 데이터를 전송할 때 사용되는 요청이다. 
